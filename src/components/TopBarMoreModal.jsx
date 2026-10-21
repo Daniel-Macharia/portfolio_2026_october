@@ -1,12 +1,21 @@
 
 import { X } from "lucide-react";
+import { useEffect, useState } from "react";
 
 
 
 const TopBarMoreModal = ({show, setShow}) => {
 
+    const [urlToPreviousPortfolio, setUrlToPreviousPortfolio] = useState();
+
+    useEffect(() => {
+        (async () => {
+            setUrlToPreviousPortfolio("https://daniel-macharia.github.io");
+        })();
+    }, []);
+
     const loadPreviousVersion = () => {
-        //load previous portfolio version
+        window.open(urlToPreviousPortfolio, "_blank", "noopener,noreferrer");
     };
 
     const loadNextVersion = () => {
