@@ -1,5 +1,5 @@
 
-import Content from './components/content';
+import Content from './components/Content';
 import MobileNavBar from './components/MobileNavBar';
 import SideBar from './components/SideBar';
 import TopBar from './components/TopBar';
