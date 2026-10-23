@@ -1,0 +1,18 @@
+.selected-tab{
+    color: var(--accent);
+    background: none;
+    border: none;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--accent);
+}
+
+.non-selected-tab{
+    background: none;
+    border: none;
+    color: var(--text);
+}
+
+.experience-tab :hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,7 @@
+#skill-image{
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: var(--accent);
+    border-style: solid;
+}
+

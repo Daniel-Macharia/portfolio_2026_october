@@ -1,11 +1,50 @@
+import { MailIcon, MessageCircleMoreIcon, PhoneIcon } from "lucide-react";
+
 const ContactsPage = () => {
 
-    return (<div className="col-12">
-        <h2>Lorem ipsum dolor sit amet.</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci iure blanditiis nam nulla expedita saepe eos porro, corrupti necessitatibus quisquam non nihil deleniti molestiae eaque accusamus aspernatur sunt eveniet inventore!</p>
-        <h1>Contacts Page Here</h1>
-        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quia cum debitis laudantium eum reprehenderit accusamus neque commodi fuga. Nobis?</p>
+    return (<div className="col-12 d-flex flex-column gap-3 p-3 justify-content-center align-items-center">
+        <h1 className="">Contacts</h1>
+        <div className="col-12 d-flex flex-column flex-md-row gap-3">
+            <div className="col-12 col-md-6 d-flex flex-column gap-3 card p-3">
+                <p className="m-0">Call</p>
+                <div className="col-12 d-flex flex-row gap-3 justify-content-center align-items-center">
+                    <PhoneIcon className="w-6 h-6"/>
+                    <p className="h-100 m-0">
+                        +25412696965
+                    </p>
+                </div>
+            </div>
+            <div className="col-12 col-md-6 d-flex flex-column gap-3 card p-3">
+                <p className="m-0">Whatsapp</p>
+                <div className="col-12 d-flex flex-row gap-3 justify-content-center align-items-center">
+                    <MessageCircleMoreIcon className="w-6 h-6"/>
+                    <p className="h-100 m-0">
+                        +25412696965
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div className="col-12 d-flex flex-column flex-md-row gap-3">
+            <div className="col-12 col-md-6 d-flex flex-column gap-3 card p-3">
+                <p className="m-0">Email</p>
+                <div className="col-12 d-flex flex-row gap-3 justify-content-center align-items-center">
+                    <MailIcon className="w-6 h-6"/>
+                    <p className="h-100 m-0">
+                        ndungudanny444@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div className="col-12 col-md-6 d-flex flex-column gap-3 card p-3">
+                <p className="m-0">LinkedIn</p>
+                <div className="col-12 d-flex flex-row gap-3 justify-content-center align-items-center">
+                    <MessageCircleMoreIcon className="w-6 h-6"/>
+                    <p className="h-100 m-0">
+                        Daniel-Macharia
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>);
 };
 

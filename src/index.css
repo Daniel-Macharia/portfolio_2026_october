@@ -31,6 +31,11 @@
   }
 }
 
+.layout-content{
+  height: 100vh !important;
+  scroll-behavior: auto !important;
+}
+
 .layout-btn-color{
   color: var(--layout-btn-text-color);
 }

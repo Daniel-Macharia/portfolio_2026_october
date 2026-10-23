@@ -19,7 +19,7 @@ const Layout = () => {
             <Content />
         </div>
 
-        <div className='d-block d-md-none col-12 m-0'>
+        <div className='d-block d-md-none col-12 m-0 '>
             <MobileNavBar />
             <Content />
         </div>
