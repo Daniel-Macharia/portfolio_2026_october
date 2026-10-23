@@ -33,7 +33,7 @@ const ResumePage = () => {
                     </h4>
                     <p className="m-0">
                         <b>
-                            Backed Developer consultant for TRC Systems.
+                            Backend Developer consultant for TRC Systems.
                         </b>
                     </p>
                     <p className="m-0">
