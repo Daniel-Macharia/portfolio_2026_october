@@ -10,7 +10,7 @@ const ContactsPage = () => {
                 <div className="col-12 d-flex flex-row gap-3 justify-content-center align-items-center">
                     <PhoneIcon className="w-6 h-6"/>
                     <p className="h-100 m-0">
-                        +25412696965
+                        +254712696965
                     </p>
                 </div>
             </div>
@@ -19,7 +19,7 @@ const ContactsPage = () => {
                 <div className="col-12 d-flex flex-row gap-3 justify-content-center align-items-center">
                     <MessageCircleMoreIcon className="w-6 h-6"/>
                     <p className="h-100 m-0">
-                        +25412696965
+                        +254712696965
                     </p>
                 </div>
             </div>
